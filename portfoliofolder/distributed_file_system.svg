@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">Distributed File System Architecture</text>
+  
+  <!-- Network Cloud -->
+  <ellipse cx="400" cy="250" rx="200" ry="70" fill="#e6f7ff" stroke="#0099cc" stroke-width="2"/>
+  <text x="400" y="253" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">Network Interconnect</text>
+  
+  <!-- Server 1 -->
+  <g>
+    <!-- Server Body -->
+    <rect x="100" y="150" width="100" height="140" rx="5" ry="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <!-- Server Top -->
+    <rect x="110" y="160" width="80" height="10" rx="2" ry="2" fill="#cccccc" stroke="#333" stroke-width="1"/>
+    <rect x="110" y="175" width="80" height="10" rx="2" ry="2" fill="#cccccc" stroke="#333" stroke-width="1"/>
+    <!-- Storage -->
+    <rect x="115" y="195" width="70" height="80" rx="2" ry="2" fill="#f1f1f1" stroke="#333" stroke-width="1"/>
+    <line x1="115" y1="215" x2="185" y2="215" stroke="#333" stroke-width="1"/>
+    <line x1="115" y1="235" x2="185" y2="235" stroke="#333" stroke-width="1"/>
+    <line x1="115" y1="255" x2="185" y2="255" stroke="#333" stroke-width="1"/>
+    <!-- Label -->
+    <text x="150" y="300" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#333">Server 1</text>
+    <text x="150" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Metadata</text>
+  </g>
+  
+  <!-- Server 2 -->
+  <g>
+    <!-- Server Body -->
+    <rect x="250" y="350" width="100" height="140" rx="5" ry="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <!-- Server Top -->
+    <rect x="260" y="360" width="80" height="10" rx="2" ry="2" fill="#cccccc" stroke="#333" stroke-width="1"/>
+    <rect x="260" y="375" width="80" height="10" rx="2" ry="2" fill="#cccccc" stroke="#333" stroke-width="1"/>
+    <!-- Storage -->
+    <rect x="265" y="395" width="70" height="80" rx="2" ry="2" fill="#f1f1f1" stroke="#333" stroke-width="1"/>
+    <line x1="265" y1="415" x2="335" y2="415" stroke="#333" stroke-width="1"/>
+    <line x1="265" y1="435" x2="335" y2="435" stroke="#333" stroke-width="1"/>
+    <line x1="265" y1="455" x2="335" y2="455" stroke="#333" stroke-width="1"/>
+    <!-- Label -->
+    <text x="300" y="490" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#333">Server 2</text>
+    <text x="300" y="505" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Storage</text>
+  </g>
+  
+  <!-- Server 3 -->
+  <g>
+    <!-- Server Body -->
+    <rect x="450" y="350" width="100" height="140" rx="5" ry="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <!-- Server Top -->
+    <rect x="460" y="360" width="80" height="10" rx="2" ry="2" fill="#cccccc" stroke="#333" stroke-width="1"/>
+    <rect x="460" y="375" width="80" height="10" rx="2" ry="2" fill="#cccccc" stroke="#333" stroke-width="1"/>
+    <!-- Storage -->
+    <rect x="465" y="395" width="70" height="80" rx="2" ry="2" fill="#f1f1f1" stroke="#333" stroke-width="1"/>
+    <line x1="465" y1="415" x2="535" y2="415" stroke="#333" stroke-width="1"/>
+    <line x1="465" y1="435" x2="535" y2="435" stroke="#333" stroke-width="1"/>
+    <line x1="465" y1="455" x2="535" y2="455" stroke="#333" stroke-width="1"/>
+    <!-- Label -->
+    <text x="500" y="490" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#333">Server 3</text>
+    <text x="500" y="505" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Storage</text>
+  </g>
+  
+  <!-- Server 4 -->
+  <g>
+    <!-- Server Body -->
+    <rect x="600" y="150" width="100" height="140" rx="5" ry="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <!-- Server Top -->
+    <rect x="610" y="160" width="80" height="10" rx="2" ry="2" fill="#cccccc" stroke="#333" stroke-width="1"/>
+    <rect x="610" y="175" width="80" height="10" rx="2" ry="2" fill="#cccccc" stroke="#333" stroke-width="1"/>
+    <!-- Storage -->
+    <rect x="615" y="195" width="70" height="80" rx="2" ry="2" fill="#f1f1f1" stroke="#333" stroke-width="1"/>
+    <line x1="615" y1="215" x2="685" y2="215" stroke="#333" stroke-width="1"/>
+    <line x1="615" y1="235" x2="685" y2="235" stroke="#333" stroke-width="1"/>
+    <line x1="615" y1="255" x2="685" y2="255" stroke="#333" stroke-width="1"/>
+    <!-- Label -->
+    <text x="650" y="300" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#333">Server 4</text>
+    <text x="650" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Manager</text>
+  </g>
+  
+  <!-- Client -->
+  <g>
+    <rect x="350" y="60" width="100" height="70" rx="5" ry="5" fill="#eef7ee" stroke="#4CAF50" stroke-width="2"/>
+    <text x="400" y="100" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#333">Client</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <line x1="400" y1="130" x2="400" y2="180" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="170" y1="220" x2="300" y2="250" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="630" y1="220" x2="500" y2="250" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="300" y1="350" x2="350" y2="300" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="500" y1="350" x2="450" y2="300" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Data Replication Arrows -->
+  <line x1="300" y1="430" x2="450" y2="430" stroke="#ff6600" stroke-width="2"/>
+  <polygon points="445,425 455,430 445,435" fill="#ff6600"/>
+  
+  <!-- Legend -->
+  <rect x="580" y="380" width="180" height="110" rx="5" ry="5" fill="white" stroke="#333" stroke-width="1"/>
+  <text x="590" y="400" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Legend</text>
+  
+  <circle cx="600" y="420" r="5" fill="#f1f1f1" stroke="#333"/>
+  <text x="615" y="425" font-family="Arial" font-size="12" fill="#333">Storage Node</text>
+  
+  <line x1="590" y1="440" x2="610" y2="440" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="615" y="445" font-family="Arial" font-size="12" fill="#333">Network Connection</text>
+  
+  <line x1="590" y1="460" x2="610" y2="460" stroke="#ff6600" stroke-width="2"/>
+  <text x="615" y="465" font-family="Arial" font-size="12" fill="#333">Data Replication</text>
+  
+  <circle cx="600" y="480" r="5" fill="#eef7ee" stroke="#4CAF50" stroke-width="2"/>
+  <text x="615" y="485" font-family="Arial" font-size="12" fill="#333">Client Request</text>
+</svg>
