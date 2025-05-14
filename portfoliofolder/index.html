@@ -1,431 +1,928 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Divitas Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divita's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Divita Phadakale</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-5"
-                    src="assets/img/profile-pic.jpg" alt="" /></span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://drive.google.com/file/d/1qYLnWbod1ZJhka7DaVYBMzfeMlayhXxZ/view?usp=sharing">Resume</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publication">Publication</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Achievements</a></li>
-            </ul>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Divitas' <span>Portfolio</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
         </div>
-    </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Divita
-                    <span class="text-primary">Phadakale</span>
-                </h1>
-                <div class="subheading mb-5">
-                
-                    <a href="mailto:divita.phadakale@colorado.edu">divita.phadakale@colorado.edu</a>
-                    <br>
-                    Boulder, CO
-                </div>
-                <p class="lead mb-5">I'm a Computer Science Masters student with two years of software development experience at TIAA, 
-                    improving client onboarding and API performance. I’ve worked with Java, Spring Boot, Python, and AWS, and won awards 
-                    for innovation while leading teams in internships and hackathons.
-                    My aim is to learn more about
-                    all the collective technological trends and delve more into the world made only for programmers,
-                    this is where I've reached so far. There's definitely a long road ahead!!</p>
-                <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/divita-phadakale-304120168/"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/DivitaP"><i class="fab fa-github"></i></a>
-                    <a class="social-icon" href="https://www.hackerrank.com/profile/divitaphadakale1"><i class="fas fa-code"></i></a>
-                    <a class="social-icon" href="https://tryhackme.com/p/DivitaP"><i
-                            class="fas fa-shield-alt"></i></a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-greeting">👋 Hello, I'm</p>
+                <h1 class="hero-title">Divita Phadakale</h1>
+                <p class="hero-subtitle">Software Developer & Network/Security enthusiast wanting to make a difference.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
                 </div>
             </div>
-        </section>
-        <hr class="m-0" />
+        </div>
+    </section>
 
-        <!-- Education-->
-    
-        <section class="education" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Education</h2>
-                 <div class="education-item">
-                    <div class="education-icon">
-                        <i class="fas fa-school"></i>
-                    </div>
-                    <div class="education-content">
-                        <h3>University of Colorado Boulder, USA</h3>
-                        <h4>Professional Masters in Computer Science</h4>
-                        <p>Pursuing</p>
-                        <p>2024-2026</p>
-                    </div>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="me.jpeg" alt="About Me Image">
                 </div>
-                <div class="education-item">
-                    <div class="education-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="education-content">
-                        <h3>Fr. Conceicao Rodrigues College of Engineering</h3>
-                        <h4>Bachelor of Engineering (B.E) - Computer Science</h4>
-                        <p>2018 - 2022</p>
-                        <p>CGPA: 9.59/10</p>
-                    </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I’m a Master’s student in Computer Science at the University of Colorado Boulder with two years of professional software development experience at TIAA. I helped to reduce client onboarding time by over 50% and optimized API performance using techniques such as parallelism, paging, and caching. My technical toolkit includes Java, Spring Boot, Python, AWS, Apache Kafka, and MongoDB, and I have a strong foundation in building scalable, asynchronous microservices. I’ve consistently been recognized for innovation and performance, receiving awards like the Titan Award and contributing to a CIO 100-winning project.</p>
+                    <p>Beyond the workplace, I actively explore emerging technologies through hands-on projects in blockchain, natural language processing, and cybersecurity along with support of my full stack technical expertise. From developing a decentralized music platform on Ethereum, developing a proxy cache server and distributed file system from scratch to simulating cyber-attack defense mechanisms using reinforcement learning and doing in depth malware analysis, I enjoy translating complex concepts into impactful solutions. I bring leadership experience from internships and hackathons, a strong academic record, and a commitment to learning and growth—making me well-prepared to contribute meaningfully in a dynamic, tech-driven environment.</p>
+                    
                 </div>
                
             </div>
-        </section>
+                                    
+        </div>
+    </section>
 
-
-
-        <hr class="m-0" />
-        <!-- Experience-->
-
-            <h2 class="mb-5" align="center" style="margin-top: 50px;">Work Experience</h2>
-        <section class="timeline" id="experience">
-
-            <div class="timeline-line"></div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Software Developer Analyst, TIAA Global Capabilities</h3>
-                    <h4>July 2022 - July 2024</h4>
-                    <p>• Contributed to developing various requirements of different projects (Investment Lineup Change,
-                        ICON, RetirePlus), which in turn reduced overall client onboarding time from 6-13 weeks to 4-6
-                        weeks using Java, Spring Boot, Micro-services, Apache Kafka, MongoDB with asynchronous
-                        processing.</p>
-                    <p>• Improved API performance enhancements using parallelism, paging, and caching techniques
-                        resulting in a 40% reduction in response time.</p>
-                </div>
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Blockchain Developer, Richedu (Remote)</h3>
-                    <h4>May 2021 - July 2021</h4>
-                    <p>• Contributed to developing an NFT-based coffee game and brainstorming new ideas for LMS using
-                        NFT or Blockchain.</p>
-                    <p>• Held the position of team lead for a team of 8-10 members.</p>
-                </div>
+
+            <span class="skills-title">Programming Languages</span>
+            <div class="skills">
+                <span class="skill">Java</span>
+                <span class="skill">Python</span>
+                <span class="skill">C</span>
+                <span class="skill">C++</span>
+                <span class="skill">Solidity</span>
+                <span class="skill">SQL</span>
+                <span class="skill">CQL</span>
+                <span class="skill">Bash</span>
+                <span class="skill">Assembly</span>
             </div>
-        </section>
-
-
-        <!-- Experience -->
-        <section class="resume-section" id="projects">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Projects</h2>
-                <div class="project-container">
-                    <div class="project-card">
-                        <div class="card-inner">
-                            <div class="card-front">
-                                <img src="assets/img/cybersecurity-project.png" alt="Project 1" />
-                            </div>
-                            <div class="card-back">
-                                <h3>cyber-attacks</h3>
-                                <p>This project uses reinforcement learning to predict and detect cyber-attacks, 
-                                    allowing for early prevention and mitigation through attack simulations in a virtual environment.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="card-inner">
-                            <div class="card-front">
-                                <img src="assets/img/student-bank.png" alt="Project 2" />
-                            </div>
-                            <div class="card-back">
-                                <h3>Student Bank</h3>
-                                <p>An online application for scholarships to students pursuing 
-                                    higher studies built on Ethereum and transactions powered by Monero cryptocurrency.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="card-inner">
-                            <div class="card-front">
-                                <img src="assets/img/quiz-app.png" alt="Project 3" />
-                            </div>
-                            <div class="card-back">
-                                <h3>Quiz App</h3>
-                                <p>Built a quiz application in android studio using Java. Features include taking quizzes with a timer
-                                    functionality and final grade page alongwith login/register usecase
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="card-inner">
-                            <div class="card-front">
-                                <img src="assets/img/fake-news-project.png" alt="Project 4" />
-                            </div>
-                            <div class="card-back">
-                                <h3>Fake news detection</h3>
-                                <p>Detection of fake news given a dataset with authentic news as well as fake news. 
-                                    Used various classification algorithms. 
-                                    The output tells us if given input news in string is fake or not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="card-inner">
-                            <div class="card-front">
-                                <img src="assets/img/blockchain.png" alt="Project 5" />
-                            </div>
-                            <div class="card-back">
-                                <h3>Music Platform</h3>
-                                <p>
-                                    This project leverages Ethereum blockchain and IPFS to create a decentralized platform 
-                                    that ensures transparent copyright verification and direct royalty payments for artists in the music industry.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="card-inner">
-                            <div class="card-front">
-                                <img src="assets/img/fish-frenzy.png" alt="Project 6" />
-                            </div>
-                            <div class="card-back">
-                                <h3>Fish Frenzy</h3>
-                                <p>Built a fish survival game in java using Android Studio.
-                                    Features include movements of fish and eating of food and lives left.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <span class="skills-title">Frameworks & Technologies</span>
+            <div class="skills">
+                <span class="skill">Spring Boot</span>
+                <span class="skill">Apache Camel</span>
+                <span class="skill">REST APIs</span>
+                <span class="skill">OpenTelemetry</span>
+                <span class="skill">Microservices</span>
+                <span class="skill">Cypress Framework</span>
+                <span class="skill">JUnit</span>
+                <span class="skill">Mockito</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">Bootstrap</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">TypeScript</span>
+                <span class="skill">Flask</span>
+                <span class="skill">Spring MVC</span>
+                <span class="skill">AngularJS</span>
+                <span class="skill">Android Studio</span>
             </div>
-        </section>
-
-        <hr class="m-0" />
-        <!-- Skills-->
-
-        <section class="skills-section" id="skills">
-            <div class="skills-section-content">
-                <h2 class="mb-5">Skills</h2>
-                <div class="subheading mb-3">Technical Skills</div>
-                <div class="skill-grid">
-                    <div class="skill-item">
-                        <i class="fab fa-java"></i> Java
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-code"></i> C
-                    </div>
-                    <div class="skill-item">
-                        <i class="fab fa-python"></i> Python
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-code"></i> C++
-                    </div>
-                    <div class="skill-item">
-                        <i class="fab fa-ethereum"></i> Solidity
-                    </div>
-                    <div class="skill-item">
-                        <i class="fab fa-java"></i> Java Spring Boot
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-network-wired"></i> Apache Camel
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-network-wired"></i> Rest APIs
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-chart-line"></i> Open Telemetry
-                    </div>
-                    <div class="skill-item">
-                        <i class="fab fa-aws"></i> AWS
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-microchip"></i> Microservices
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-bug"></i> Cypress Framework
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-database"></i> MongoDB
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-drafting-compass"></i> Design Patterns
-                    </div>
-                    <div class="skill-item">
-                        <i class="fab fa-angular"></i> Angular JS
-                    </div>
-                    <div class="skill-item">
-                        <i class="f	fas fa-assistive-listening-systems"></i> Apache Kafka
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-project-diagram"></i> Neo4j
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-project-diagram"></i> Data Structures
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-database"></i> DBMS
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-brain"></i> Machine Learning
-                    </div>
-                </div>
-
-                <br>
-                <div class="subheading mb-3">Courses</div>
-                <div class="skill-grid">
-                    <div class="skill-item">
-                        <i class="fas fa-shield-alt"></i> Computer Security & Ethical Hacking
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-lock"></i> Cryptography & System Security
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-cloud"></i> Cloud Computing
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-drafting-compass"></i> Design & Analysis of Algorithms
-                    </div>
-                </div>
+            <span class="skills-title">Cloud & DevOps Tools</span>
+            <div class="skills">
+                <span class="skill">AWS</span>
+                <span class="skill">Git</span>
+                <span class="skill">Docker</span>
+                <span class="skill">Kubernetes</span>
+                <span class="skill">Apache Kafka</span>
+                <span class="skill">Rabbit MQ</span>
             </div>
-        </section>
-        
-        
-        
-
-        <hr class="m-0" />
-        <!-- Publications-->
-        <section class="resume-section" id="publication">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Publications</h2>
-                <h4>Blockchain-Based Model for Royalty Payments of Artists and Remix Makers</h4>
-                <p class="mb-0">Developed a web platform deployed on Ethereum that provides a way for artists to upload their work plagiarism-free.</p>
-                <p class="mb-0"><b>Tech Stack:</b> Ethereum, Ganache, MetaMask, Truffle, Audio Fingerprinting using Java, JavaScript. IPFS</p>
-                <p class="mb-0"><i>Citation: Bilonikar Shreya, Mendonca Carol, Phadakale Divita, and Shetty Monali, “Blockchain-Based Model for Royalty
-                    Payments of Artists and Remix Makers”, Proceedings of the International Conference on Smart Data Intelligence (ICSMDI
-                    2021), SSRN, 2021</i></p>
-
+            <span class="skills-title">Databases & Data Managements</span>
+            <div class="skills">
+                <span class="skill">MongoDB</span>
+                <span class="skill">Neo4j</span>
+                <span class="skill">DBMS</span>
+                <span class="skill">MySQL</span>
             </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Awards -->
-
-        <section class="awards-section" id="awards">
-            <div class="awards-section-content">
-                <h2 class="mb-5">Certifications</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                        Machine Learning (Stanford University), Coursera, May-June 2020
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                        Network Security & Database Vulnerabilities (IBM), Coursera, August-October 2020
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                        Blockchain Basics, Smart Contracts, Decentralized Applications (SUNY Buffalo), Coursera, September 2020-April 2021
-                    </li>
-                </ul>
-        
-                <h2 class="mb-5 mt-5">Awards</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Winner in Cryptogram – TIAA organized coding competition related to cryptography, June 2024
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        3rd place winner in AWS Deep Racer at TIAA, January 2024
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Received several Spot-on awards and All-Star Award, performance award at TIAA, November 2022-April 2024
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Received Titan Award for Innovation Excellence Team, December 2023
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Foundry’s CIO 100 Award for Investment Lineup Change Innovation project, April 2023
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        3rd place winner in Ingress Hackathon, organized by Mar Baselios College of Engineering and Technology, February 2021
-                    </li>
-                </ul>
-        
-                <h2 class="mb-5 mt-5">Extracurricular Activities</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-users text-warning"></i></span>
-                        Participated in CSR Activities (Corporate Community Services) at TIAA
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-users text-warning"></i></span>
-                        Guided interns on Machine Learning and trainees on Java Spring boot at TIAA
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-users text-warning"></i></span>
-                        Worked as a team lead for projects and hackathons during undergraduate degree
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-users text-warning"></i></span>
-                        Webmaster (2020-2021) and Vice-President (2021-2022) at Institute Innovation Cell affiliated to undergraduate college
-                    </li>
-                </ul>
+            <span class="skills-title">Malware & Networking</span>
+            <div class="skills">
+                <span class="skill">Wireshark</span>
+                <span class="skill">tcpdump</span>
+                <span class="skill">TCPView</span>
+                <span class="skill">dnSpy</span>
+                <span class="skill">Fakenet-ng</span>
+                <span class="skill">Kali Linux</span>
+                <span class="skill">VirusTotal</span>
+                <span class="skill">CFF Explorer</span>
+                <span class="skill">Process Monitor</span>
+                <span class="skill">Process Explorer</span>
+                <span class="skill">Sysinternals Suite</span>
+                <span class="skill">Detect it Easy</span>
+                <span class="skill">Ghidra</span>
+                <span class="skill">OllyDbg</span>
+                <span class="skill">x64dbg</span>
+                <span class="skill">IDA</span>
+                <span class="skill">PE View/Explorer/id</span>
             </div>
-        </section>
-        
-        
-<br><br>
-<br>
-<br>
-
-
-    </div>
-
+            <span class="skills-title">Blockchain & Web3 Technologies</span>
+            <div class="skills">
+                <span class="skill">Ethereum</span>
+                <span class="skill">Truffle</span>
+                <span class="skill">Ganache</span>
+                <span class="skill">MetaMask</span>
+                <span class="skill">IPFS</span>
+            </div>
+            <span class="skills-title">Concepts & Methodologies</span>
+            <div class="skills">
+                <span class="skill">OOP</span>
+                <span class="skill">Design Patterns</span>
+                <span class="skill">Data Structures</span>
+                <span class="skill">Machine Learning</span>
+                <span class="skill">Cybersecurity</span>
+                <span class="skill">Cloud Computing</span>
+                <span class="skill">Cryptography</span>
+            </div>
+            <span class="skills-title">Coursework</span>
+            <div class="skills">
+                <span class="skill">Design & Analysis of Algorithms</span>
+                <span class="skill">Security & Ethical Hacking</span>
+                <span class="skill">Natural Language Processing</span>
+                <span class="skill">Malware Reverse Engineering</span>
+                <span class="skill">Cryptography & System Security</span>
+                <span class="skill">Network Networks</span>
+            </div>
+        </div>
+    </section>
     
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-</body>
+    <!-- Education Section -->
+<section id="education" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Education</h2>
+        </div>
+        <div class="education-container">
+            <!-- Education 1 -->
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3 class="education-degree">Master of Science in Computer Science</h3>
+                    <h4 class="education-school">University of Colorado Boulder</h4>
+                    <p class="education-period">2024 - 2026</p>
+                    <p class="education-description">Specializing in Software Systems and Cloud Computing. Relevant coursework includes Network Systems, Security and Ethical Hacking, Design and Analysis of Algorithms</p>
+                    <div class="education-gpa">
+                        <span>GPA: 3.74/4.0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Education 2 -->
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3 class="education-degree">Bachelor of Engineering in Computer Science</h3>
+                    <h4 class="education-school">University of Mumbai</h4>
+                    <p class="education-period">2018 - 2022</p>
+                    <p class="education-description">Graduated with honors. Core focus on software engineering fundamentals, data structures and algorithms, database systems, and web application development. Completed a capstone project on blockchain-based decentralized applications.</p>
+                    <div class="education-gpa">
+                        <span>GPA: 9.59/10.0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Work Experience Section -->
+<section id="experience" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Work Experience</h2>
+        </div>
+        <div class="experience-timeline">
+            <!-- Experience 1 -->
+            <div class="experience-item">
+                <div class="experience-date">
+                    <span>2024 - current</span>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-dot"></div>
+                    <div class="experience-card">
+                        <h3 class="experience-position">Course Grader / Manager / Assistant</h3>
+                        <h4 class="experience-company">University of Colorado Boulder</h4>
+                        <p class="experience-location">Boulder, CO, USA</p>
+                        <div class="experience-description">
+                            <ul>
+                                <li>Grader for the course CSCI-4448/CSCI-5448 - Object Oriented Analysis and Design.</li>
+                                <li>Reponsibilities include reviewing and grading the homework assignments, quizzes and exams.</li>
+                                <li>Helped in improving Java Swing UI for the course assignments.</li>
+                            </ul>
+                        </div>
+                        <div class="experience-tags">
+                            <span class="experience-tag">Java</span>
+                            <span class="experience-tag">Spring Boot</span>
+                            <span class="experience-tag">Object Oriented Programming (OOP)</span>
+                            <span class="experience-tag">Design Patterns</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Experience 2 -->
+            <div class="experience-item">
+                <div class="experience-date">
+                    <span>2022 - 2024</span>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-dot"></div>
+                    <div class="experience-card">
+                        <h3 class="experience-position">Software Developer Analyst</h3>
+                        <h4 class="experience-company">TIAA Global Capabilities</h4>
+                        <p class="experience-location">Mumbai, India</p>
+                        <div class="experience-description">
+                            <ul>
+                                <li>Worked at TIAA GBS (Teachers Insurance and Annuity Association of America, Global Business Services), a US-based FinTech company as a Software Developer Analyst. </li>
+                                <li>Contributed to a CIO 100-winning project by developing RESTful APIs and integrating with legacy systems.</li>
+                                <li>Implemented comprehensive logging and monitoring solutions using OpenTelemetry to improve system observability.</li>
+                                <li>Created automated testing frameworks that increased test coverage by 30% and reduced regression issues.</li>
+                            </ul>
+                        </div>
+                        <div class="experience-tags">
+                            <span class="experience-tag">Java</span>
+                            <span class="experience-tag">REST APIs</span>
+                            <span class="experience-tag">Apache Kafka</span>
+                            <span class="experience-tag">Apache Camel</span>
+                            <span class="experience-tag">Spring Boot</span>
+                            <span class="experience-tag">MongoDB</span>
+                            <span class="experience-tag">Microservices</span>
+                            <span class="experience-tag">Docker</span>
+                            <span class="experience-tag">Kubernetes</span>
+                            <span class="experience-tag">GitLab</span>
+                            <span class="experience-tag">Jenkins</span>
+                            <span class="experience-tag">Cypress</span>
+                            <span class="experience-tag">JUnit</span>
+                            <span class="experience-tag">CI/CD</span>
+                            <span class="experience-tag">Postman/Swagger/Rester</span>
+                            <span class="experience-tag">Rabbit MQ</span>
+                            <span class="experience-tag">OpenTelemetry</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Experience 3 -->
+            <div class="experience-item">
+                <div class="experience-date">
+                    <span>2021</span>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-dot"></div>
+                    <div class="experience-card">
+                        <h3 class="experience-position">Blockchain Developer</h3>
+                        <h4 class="experience-company">Richedu</h4>
+                        <p class="experience-location">British Columbia, Canada - Remote</p>
+                        <div class="experience-description">
+                            <ul>
+                                <li>Worked as an intern for blockchain developer position and got to learn a lot regarding NFTs, private blockchains, new technological trends, etc.</li>
+                                <li>Worked on connecting frontend to the smart contract code for the game developed along with brainstorming for new projects.</li>
+                                <li>Implemented and tested smart contracts using Solidity for the Ethereum blockchain.</li>
+                                <li>Led a team of 8-10 members.</li>
+                            </ul>
+                        </div>
+                        <div class="experience-tags">
+                            <span class="experience-tag">Blockchain</span>
+                            <span class="experience-tag">Solidity</span>
+                            <span class="experience-tag">Ethereum</span>
+                            <span class="experience-tag">Research</span>
+                            <span class="experience-tag">NFTs</span>
+                            <span class="experience-tag">Smart Contracts</span>
+                            <span class="experience-tag">Web3</span>
+                            <span class="experience-tag">Truffle</span>
+                            <span class="experience-tag">Ganache</span>
+                            <span class="experience-tag">MetaMask</span>
+                            <span class="experience-tag">IPFS</span>
+                            <span class="experience-tag">JavaScript</span>
+                            <span class="experience-tag">HTML5</span>
+                            <span class="experience-tag">CSS3</span>
+                            <span class="experience-tag">Bootstrap</span>
+                            <span class="experience-tag">React</span>
+                            <span class="experience-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Experience 4 -->
+            <div class="experience-item">
+                <div class="experience-date">
+                    <span>2020</span>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-dot"></div>
+                    <div class="experience-card">
+                        <h3 class="experience-position">Web Developer</h3>
+                        <h4 class="experience-company">Jankalyan Multipurpose Education Society</h4>
+                        <p class="experience-location">Maharashtra, India - Remote</p>
+                        <div class="experience-description">
+                            <ul>
+                                <li>Built a complete responsive website for the non governmental organisation within a period of one month along with excellent co-ordination with the team.</li>
+                                </ul>
+                        </div>
+                        <div class="experience-tags">
+                            <span class="experience-tag">HTML</span>
+                            <span class="experience-tag">CSS</span>
+                            <span class="experience-tag">Javascript</span>
+                            <span class="experience-tag">Responsive Web</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="njrat.png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Malware Analysis</h3>
+                        <p class="project-description">An in-depth Malware Analysis for njRAT - a remote access trojan. Includes basic and dynamic static and dynamic analysis.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">VirusTotal</span>
+                            <span class="project-tag">dnSpy</span>
+                            <span class="project-tag">Wireshark</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://medium.com/@divitaphadakale21/njrat-malware-analysis-722a88bc287b" class="project-link">
+                                <i class="fas fa-link"></i> Blog Post
+                            </a>
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="proxy.jpeg" alt="Proxy Cache Server">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Proxy Cache Server</h3>
+                        <p class="project-description">Developed a multithreaded proxy cache server using C. Server supports file types like gif, png, jpeg, html etc. Processing time is approx. 1.5ms</p>
+                        <div class="project-tags">
+                            <span class="project-tag">C</span>
+                            <span class="project-tag">Multithreading</span>
+                            <span class="project-tag">Proxy</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-link"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/DivitaP" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="distributed_file_system.svg" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Distributed File System</h3>
+                        <p class="project-description">Developed a multithreaded Distributed Server and Client with support for replication in case of failures. Data stored in chunks and retrieved by client.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">C</span>
+                            <span class="project-tag">Multithreading</span>
+                            <span class="project-tag">Distributed Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="study_buddy.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Study Assistant - NLP</h3>
+                        <p class="project-description">Developed a tool that will summarize lecture notes, generate flashcards, and even create quizzes based on uploaded content.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Flask</span>
+                            <span class="project-tag">RoBERTA</span>
+                            <span class="project-tag">AngularJS</span>
+                            <span class="project-tag">RAG</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="UI chatbot.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Data unlearning - NLP</h3>
+                        <p class="project-description">Developed a chatbot focused on Alan Turing for a specific time period. The system should not know about information beyond the time range.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Neo4j</span>
+                            <span class="project-tag">CQL</span>
+                            <span class="project-tag">Flask</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">RAG</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-link"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/DivitaP/temporal-minds" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="quiz-app.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Quiz app - Full stack</h3>
+                        <p class="project-description">Developed a full stack application for quiz using Java Spring boot, MongoDB, AngularJS with a notification service for OTP.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Java Spring Boot</span>
+                            <span class="project-tag">AngularJS</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="cybersecurity-project.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Detection Software</h3>
+                        <p class="project-description">This project uses reinforcement learning to predict and detect cyber-attacks, allowing for early prevention and mitigation through attack simulations in a virtual environment.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">RL</span>
+                            <span class="project-tag">Wireshark</span>
+                            <span class="project-tag">Metasploit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/HnYItTA1ay8?si=0IlI4LXkzrQ3bpoZ" class="project-link">
+                                <i class="fas fa-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="blockchain.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Music Platform</h3>
+                        <p class="project-description">This project leverages Ethereum blockchain and IPFS to create a decentralized platform that ensures transparent copyright verification and direct royalty payments for artists in the music industry.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Ethereum</span>
+                            <span class="project-tag">Smart Contracts</span>
+                            <span class="project-tag">Ganache</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project  -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="fish-frenzy.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Android Game Dev</h3>
+                        <p class="project-description">Built a fish survival game in java using Android Studio. Features include movements of fish and eating of food and lives left and result page to display result of the game.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Android Studio</span>
+                            <span class="project-tag">Java</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Awards and Recognition Section -->
+    <section id="awards" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Awards & Recognition</h2>
+            </div>
+            <div class="awards-container">
+                <!-- Award 1 -->
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3 class="award-title">
+                            Hackathon Winner National level</h3>
+                        <p class="award-organization">Mar Baselios college of Engineering and Technology</p>
+                        <p class="award-description">3rd place winner at Ingress hackathon in general category against 150+ teams all over India with project having main domain as Blockchain and using Monero as Cryptocurrency for transaction.</p>
+                    </div>
+                </div>
+                
+                <!-- Award 2 -->
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3 class="award-title">
+                            TIAA Titan Award </h3>
+                        <p class="award-organization">TIAA</p>
+                        <p class="award-description">Received the prestigious Titan award for Innovation excellence team in TIAAs annual award function.</p>
+                    </div>
+                </div>
+                
+                <!-- Award 3 -->
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3 class="award-title">AWS DeepRacer Winner</h3>
+                        <p class="award-organization">TIAA + AWS</p>
+                        <p class="award-description">
+                            Won 3rd place in TIAA organised AWS DeepRacer Community Race among 20 different teams in the organization with all types of experience.</p>
+                    </div>
+                </div>
+                
+                <!-- Recognition 1 -->
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3 class="award-title">Team Rockstar</h3>
+                        <p class="award-organization">TIAA</p>
+                        <p class="award-description">Commended as a featured developer for contributions to project team and for going further than expectations.</p>
+                    </div>
+                </div>
+
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3 class="award-title">CIO 100 Award</h3>
+                        <p class="award-organization">TIAA</p>
+                        <p class="award-description">Foundry’s CIO 100 Award for Investment Lineup Change Innovation project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Extracurricular Activities Section -->
+    <section id="extracurricular" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Extracurricular Activities</h2>
+            </div>
+            <div class="activities-container">
+                <div class="activities-grid">
+                    <!-- Activity 1 -->
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3 class="activity-title">Code Mentor</h3>
+                            <p class="activity-period">2022 - 2024</p>
+                            <p class="activity-description">Guided interns on Machine Learning and trainees on Java Spring boot at TIAA.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Activity 2 -->
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3 class="activity-title">Tech Lead</h3>
+                            <p class="activity-period">2020 - Present</p>
+                            <p class="activity-description">Volunteered as a team lead for projects and hackathons during undergraduate degree and graduate degree on several occasions.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Activity 3 -->
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3 class="activity-title">Innovation Tech Club Leader</h3>
+                            <p class="activity-period">2020 - 2022</p>
+                            <p class="activity-description">Webmaster (2020-2021) and Vice-President (2021-2022) at Institute Innovation Cell affiliated to undergraduate college.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>divita.phadakale@colorado.edu</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Boulder, CO, USA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>LinkedIn</h4>
+                            <p>https://www.linkedin.com/in/divita-phadakale-304120168/</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>GitHub</h4>
+                            <p>github.com/DivitaP</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Divita's <span>Portfolio</span></div>
+                    <p class="footer-text">Thank you for visiting my portfolio. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/DivitaP" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/divita-phadakale-304120168/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="https://medium.com/@divitaphadakale21">Blog</a></li>
+                        <li><a href="">Resume</a></li>
+                        <li><a href="https://github.com/DivitaP">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Divita. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Navigation Toggle
+        const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileNavToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            
+            const icon = mobileNavToggle.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+        
+        // Close mobile nav when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = mobileNavToggle.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+        });
+        
+        // Form submission handler (for demo purposes)
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+                
+                // For demo purposes, just show an alert
+                alert(`Thank you, ${name}! Your message has been received. I'll get back to you soon.`);
+                
+                // Reset form
+                contactForm.reset();
+                
+                // In a real implementation, you would send this data to a backend service or email API
+                console.log({ name, email, subject, message });
+            });
+        }
+        
+        // Projects filter (can be expanded with actual filtering)
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize any animations or effects
+            animateOnScroll();
+        });
+        
+        // Animate elements when they are in viewport
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.section-title, .about-content, .project-card, .contact-content');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            elements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'all 0.8s ease';
+                observer.observe(element);
+            });
+        }
+    </script>
+</body>
 </html>
